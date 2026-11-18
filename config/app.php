@@ -17,6 +17,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Identificador del servidor web
+    |--------------------------------------------------------------------------
+    |
+    | Define que nodo atiende la peticion (1 o 2). Se configura por maquina en
+    | el archivo .env, no reemplazando el HTML del sitio.
+    |
+    */
+
+    'site_id' => env('SITE_ID', '1'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------
     |
